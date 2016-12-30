@@ -13,6 +13,18 @@
   "window": {
     "navigationBarTitleText": "猫途校园"
   },
+    "tabBar": {
+    "color": "#7f848a",
+    "selectedColor": "#7acfa6",
+    "backgroundColor": "#f7f6fb",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath": "pages/home/home",
+      "text": "我的"
+    }]
+  },
   "networkTimeout": {
     "request": 10000,
     "downloadFile": 10000
