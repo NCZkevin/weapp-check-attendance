@@ -22,6 +22,7 @@
 .lesson-card {
     margin: 5%;
     background-color: #FFFFFF;
+    box-shadow: 0 0 10px #D3DCE6;
 }
 
 .lesson-image {
@@ -51,7 +52,7 @@
     width: 45%;
     float: left;
     height: 64rpx;
-    line-height: 60rpx;
+    line-height: 64rpx;
     color: #FFFFFF;
 }
 
@@ -65,3 +66,4 @@
 .l-btn[type="faqi"] {
     background-color: #20A0FF;
 }
+
