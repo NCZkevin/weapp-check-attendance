@@ -1,3 +1,4 @@
+
 <!--<view class="page">
   <view class="page__hd">
     <view class="page__title">猫途校园</view>
@@ -11,5 +12,28 @@
   </view>
 </view>-->
 <view class="page">
-  
+  <block wx:for="{{core}}">
+    <view class="lesson-card">
+      <image src="/images/jy.png" class="lesson-image"></image>
+      <view class="lesson-detail">
+        <view class="lesson-title">{{item.title}}</view>
+        <view>
+          <view class="lesson-teacher">{{item.teacher}}</view>
+          <view class="lesson-address">{{item.address}}</view>
+        </view>
+        <view class="lesson-time">{{item.time}}</view>
+        <view class="lesson-button">
+          <view wx:if="{{item.status == 0}}">
+            <button class="l-btn" type="primary">考勤中</button>
+          </view>
+          <view wx:elif="{{item.status == 1}}">
+            <button class="l-btn" type="canyu">参与考勤</button>
+          </view>
+          <view wx:else>
+            <button class="l-btn" type="faqi">发起考勤</button>
+          </view>
+        </view>
+      </view>
+    </view>
+  </block>
 </view>
