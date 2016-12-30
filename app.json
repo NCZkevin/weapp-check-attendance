@@ -1,7 +1,14 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/lesson/lesson"
+    "pages/lesson/lesson",
+    "pages/check/check",
+    "pages/home/home",
+    "pages/first/first",
+    "pages/cdetail/cdetail",
+    "pages/ldetail/ldetail",
+    "pages/lesson/addlesson/addlesson",
+    "pages/lesson/createlesson/createlesson"
   ],
   "window": {
     "navigationBarTitleText": "猫途校园"
