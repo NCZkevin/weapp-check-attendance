@@ -24,7 +24,7 @@
         <view class="lesson-time">{{item.time}}</view>
         <view class="lesson-button">
           <view wx:if="{{item.status == 0}}">
-            <button class="l-btn" type="primary">考勤中</button>
+            <navigator url="/pages/first/first"><button class="l-btn" type="primary">考勤中</button></navigator>
           </view>
           <view wx:elif="{{item.status == 1}}">
             <button class="l-btn" type="canyu">参与考勤</button>

@@ -1,2 +1,12 @@
-<!--pages/first/first.wxml-->
-<text>pages/first/first.wxml</text>
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">猫途校园</view>
+    <view class="page__desc">智慧校园考勤，更用心，更贴心！</view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <view class="button-sp-area">
+      <button class="weui-btn" type="primary" plain="true"><navigator url="/pages/lesson/" class="weui-btn">发起考勤</navigator></button>
+       <button class="weui-btn" type="primary" plain="true"><navigator url="/pages/lesson/" class="weui-btn">参与考勤</navigator></button>
+    </view>
+  </view>
+</view>
